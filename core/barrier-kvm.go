@@ -5,7 +5,7 @@
 package core
 
 import (
-	"github.com/Akilan1999/remotegameplay/config"
+	"github.com/Xplane11-WebRTC/remotegameplay/config"
 	"os/exec"
 )
 

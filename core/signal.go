@@ -2,7 +2,7 @@ package core
 
 import (
 	"fmt"
-	"github.com/Akilan1999/remotegameplay/config"
+	"github.com/Xplane11-WebRTC/remotegameplay/config"
 	"github.com/gorilla/websocket"
 	"log"
 	"net/http"

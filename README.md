@@ -1,20 +1,20 @@
 <h1 align="center">
   <br>
-  <a href=""><img src="https://user-images.githubusercontent.com/31743758/132035109-cd8a145b-6e32-4d16-b9f8-f77f8de46a12.png" alt="p2prc" width="400"></a>
+  <a href=""><img src="https://dl2.macupdate.com/images/icons256/3383.png?time=1617802661" alt="Xplane 11" width="400"></a>
   <br>
 </h1>
 
 <!-- seperator -->
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Akilan1999/p2p-rendering-computation/graphs/commit-activity)
 [![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
 
 The aim of this project is develop a WebRTC screenshare designed for streaming video games and
-accepting remote inputs.
-There will be ansible instructions which can be executed inside into any virtual environment. This will
-be a plugin which complements the project [P2PRC](https://p2prc.akilan.io)
+accepting remote inputs. This branch is custom-made for Xplane and will have custom scripts to 
+start Xplane 11 on any Linux based on distribution. 
 
-## Testing with Xplane 11
-[![IMAGE ALT TEXT](https://i.ytimg.com/vi/65dn7TRgzeE/hqdefault.jpg)](https://www.youtube.com/watch?v=65dn7TRgzeE "Running Xplane 11 using WebRTC")
+
+
+## Demo 
+[![IMAGE ALT TEXT](https://i.ytimg.com/vi/WVDSVhMW7o4/hqdefault.jpg)](https://www.youtube.com/watch?v=WVDSVhMW7o4 "Running Xplane 11 using WebRTC")
 
 ## Laplace
 Based on the fork:
@@ -24,12 +24,8 @@ https://github.com/Akilan1999/laplace/tree/keyboard_mouse
 
 
 ### Installation required to share keyboard and mouse
-Currently, you can either use [x2x](https://github.com/dottedmag/x2x) or [Barrier KVM]()
+Currently, we use Barrier KVM.
 We need to ensure that the client has SSH client installed or Barrierc.
-
-#### What is x2x?
-x2x allows the keyboard, mouse on one X display to be used to control another X
-display. It also shares X clipboards between the displays.
 
 Note: x2x runs on top of SSH.
 

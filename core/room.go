@@ -3,7 +3,7 @@ package core
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Akilan1999/remotegameplay/config"
+	"github.com/Xplane11-WebRTC/remotegameplay/config"
 	"github.com/gorilla/websocket"
 	"io/ioutil"
 	"os"

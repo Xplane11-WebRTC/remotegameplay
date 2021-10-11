@@ -41,7 +41,7 @@ func fileExists(name string) bool {
 // make install
 func SetDefaults() error {
 	//Getting Current Directory from environment variable
-	curDir := os.Getenv("REMOTEGAMING")
+	curDir := os.Getenv("XPLANE11_WEBRTC")
 
 	//Setting current directory to default path
 	defaultPath = curDir + "/"
@@ -90,7 +90,7 @@ func SetDefaults() error {
 
 func ConfigInit() (*Config, error) {
 
-	curDir := os.Getenv("REMOTEGAMING")
+	curDir := os.Getenv("XPLANE11_WEBRTC")
 	//Setting current directory to default path
 	defaultPath = curDir + "/"
 	//Paths to search for config file
